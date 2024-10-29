@@ -5,7 +5,7 @@
   <title>Title</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
-<body>
+<body class="page">
 <div class="container">
   <h1>Registration Form</h1>
   <form>
@@ -14,8 +14,16 @@
       <input type="text" id="name-input" placeholder="Name"/>
     </div>
     <div class="form-input">
+      <label for="birth-date-input">Enter your birth date</label>
+      <input type="date" id="birth-date-input"/>
+    </div>
+    <div class="form-input">
       <label for="password-input">Enter your password</label>
       <input type="password" id="password-input" placeholder="Password"/>
+    </div>
+    <div class="form-input">
+      <label for="password-confirm-input">Confirm your password</label>
+      <input type="password" id="password-confirm-input" placeholder="Confirm password"/>
     </div>
     <div class="form-input">
       <label for="user-type-input">Select user type</label>
@@ -26,6 +34,10 @@
       </select>
     </div>
     <input type="submit" value="Submit form"/>
+    <div>
+      <input type="checkbox" id="confirm-input"/>
+      <label for="confirm-input">I agree to the terms of the privacy policy <a href="./index.html">More detail</a></label>
+    </div>
   </form>
 </div>
 </body>
