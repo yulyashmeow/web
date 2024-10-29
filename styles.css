@@ -65,3 +65,12 @@ input[type=checkbox] {
         opacity: 1;
     }
 }
+
+.error {
+    border: 1px solid brown;
+}
+
+.error-text {
+    color: brown;
+    font-size: 0.9em;
+}
