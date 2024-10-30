@@ -8,18 +8,18 @@
 <body class="page">
 <div class="container">
   <h1>Registration Form</h1>
-  <form>
+  <form action="/reg-data" method="post">
     <div class="form-input">
       <label for="name-input">Enter your name</label>
-      <input type="text" id="name-input" placeholder="Name"/>
+      <input type="text" id="name-input" placeholder="Name" name="username"/>
     </div>
     <div class="form-input">
       <label for="birth-date-input">Enter your birth date</label>
-      <input type="date" id="birth-date-input"/>
+      <input type="date" id="birth-date-input" name="birthdate"/>
     </div>
     <div class="form-input">
       <label for="password-input">Enter your password</label>
-      <input type="password" id="password-input" placeholder="Password"/>
+      <input type="password" id="password-input" placeholder="Password" name="password"/>
     </div>
     <div class="form-input">
       <label for="password-confirm-input">Confirm your password</label>
